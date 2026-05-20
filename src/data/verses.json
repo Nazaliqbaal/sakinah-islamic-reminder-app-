@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "arabic": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ",
+    "translation": "Verily, in the remembrance of Allah do hearts find rest.",
+    "surah": "Ar-Ra'd",
+    "surahNumber": 13,
+    "ayah": 28,
+    "theme": ["peace", "remembrance"],
+    "reflection": "When the world feels heavy, returning to Allah's remembrance is the surest path back to stillness."
+  },
+  {
+    "id": 2,
+    "arabic": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "translation": "Indeed, with hardship will be ease.",
+    "surah": "Ash-Sharh",
+    "surahNumber": 94,
+    "ayah": 6,
+    "theme": ["hope", "patience"],
+    "reflection": "Allah does not promise a life without difficulty — He promises that ease will always accompany it."
+  },
+  {
+    "id": 3,
+    "arabic": "وَعَسَىٰ أَن تَكْرَهُوا شَيْئًا وَهُوَ خَيْرٌ لَّكُمْ",
+    "translation": "And it may be that you dislike a thing while it is good for you.",
+    "surah": "Al-Baqarah",
+    "surahNumber": 2,
+    "ayah": 216,
+    "theme": ["trust", "guidance"],
+    "reflection": "Our vision is limited; Allah's plan encompasses what we cannot see. Trust His wisdom over your own understanding."
+  },
+  {
+    "id": 4,
+    "arabic": "وَلَا تَيْأَسُوا مِن رَّوْحِ اللَّهِ ۖ إِنَّهُ لَا يَيْأَسُ مِن رَّوْحِ اللَّهِ إِلَّا الْقَوْمُ الْكَافِرُونَ",
+    "translation": "Do not despair of the mercy of Allah. Indeed, no one despairs of the mercy of Allah except the disbelieving people.",
+    "surah": "Yusuf",
+    "surahNumber": 12,
+    "ayah": 87,
+    "theme": ["hope", "mercy"],
+    "reflection": "Despair is a door that Allah never closes from His side. No matter how far you feel, His mercy is always within reach."
+  },
+  {
+    "id": 5,
+    "arabic": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+    "translation": "For indeed, with hardship will be ease.",
+    "surah": "Ash-Sharh",
+    "surahNumber": 94,
+    "ayah": 5,
+    "theme": ["hope", "patience"],
+    "reflection": "Allah repeated this promise twice in the same surah — a reminder that ease is not a distant hope, it accompanies every struggle."
+  },
+  {
+    "id": 6,
+    "arabic": "وَٱللَّهُ يُحِبُّ ٱلصَّٰبِرِينَ",
+    "translation": "And Allah loves the patient.",
+    "surah": "Al-Imran",
+    "surahNumber": 3,
+    "ayah": 146,
+    "theme": ["patience", "love"],
+    "reflection": "Patience is not passive endurance — it is an act of love returned. When you are patient, Allah's love finds you."
+  },
+  {
+    "id": 7,
+    "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+    "translation": "Our Lord, give us good in this world and good in the hereafter, and protect us from the punishment of the Fire.",
+    "surah": "Al-Baqarah",
+    "surahNumber": 2,
+    "ayah": 201,
+    "theme": ["prayer", "guidance"],
+    "reflection": "This du'a asks for everything — goodness in both worlds. It is a complete prayer that covers all of life's dimensions."
+  },
+  {
+    "id": 8,
+    "arabic": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ",
+    "translation": "And when My servants ask you concerning Me — indeed I am near.",
+    "surah": "Al-Baqarah",
+    "surahNumber": 2,
+    "ayah": 186,
+    "theme": ["prayer", "peace"],
+    "reflection": "Allah did not say 'tell them I am near' — He answered directly, bypassing the Prophet, to show how immediate His presence truly is."
+  },
+  {
+    "id": 9,
+    "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+    "translation": "Allah is sufficient for us, and He is the best Disposer of affairs.",
+    "surah": "Al-Imran",
+    "surahNumber": 3,
+    "ayah": 173,
+    "theme": ["trust", "strength"],
+    "reflection": "When everything seems to close in, these words are a fortress. They were spoken in fear — and became a path to victory."
+  },
+  {
+    "id": 10,
+    "arabic": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا",
+    "translation": "Allah does not burden a soul beyond that it can bear.",
+    "surah": "Al-Baqarah",
+    "surahNumber": 2,
+    "ayah": 286,
+    "theme": ["strength", "mercy"],
+    "reflection": "The fact that you are still standing is proof you are stronger than you believe. Allah calibrated your test to your capacity."
+  },
+  {
+    "id": 11,
+    "arabic": "وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ",
+    "translation": "And He is with you wherever you are.",
+    "surah": "Al-Hadid",
+    "surahNumber": 57,
+    "ayah": 4,
+    "theme": ["peace", "trust"],
+    "reflection": "Not metaphorically, not occasionally — wherever you are, Allah is there. You are never truly alone."
+  },
+  {
+    "id": 12,
+    "arabic": "وَلَذِكْرُ اللَّهِ أَكْبَرُ",
+    "translation": "And the remembrance of Allah is greater.",
+    "surah": "Al-Ankabut",
+    "surahNumber": 29,
+    "ayah": 45,
+    "theme": ["remembrance", "prayer"],
+    "reflection": "Among all acts of worship, remembrance of Allah holds the highest rank. Even a moment of true dhikr outweighs much."
+  },
+  {
+    "id": 13,
+    "arabic": "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
+    "translation": "Indeed, Allah is with the patient.",
+    "surah": "Al-Baqarah",
+    "surahNumber": 2,
+    "ayah": 153,
+    "theme": ["patience", "strength"],
+    "reflection": "Patience draws Allah's companionship closer. In your hardest moments, you have the company of the Most High."
+  },
+  {
+    "id": 14,
+    "arabic": "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
+    "translation": "And whoever relies upon Allah — then He is sufficient for him.",
+    "surah": "At-Talaq",
+    "surahNumber": 65,
+    "ayah": 3,
+    "theme": ["trust", "guidance"],
+    "reflection": "Tawakkul is not laziness — it is working fully, then releasing the outcome to the One who controls all outcomes."
+  },
+  {
+    "id": 15,
+    "arabic": "فَاذْكُرُونِي أَذْكُرْكُمْ",
+    "translation": "So remember Me; I will remember you.",
+    "surah": "Al-Baqarah",
+    "surahNumber": 2,
+    "ayah": 152,
+    "theme": ["remembrance", "gratitude"],
+    "reflection": "Allah makes a direct exchange: your remembrance of Him brings His remembrance of you. What a breathtaking promise."
+  },
+  {
+    "id": 16,
+    "arabic": "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ",
+    "translation": "If you are grateful, I will surely increase you in favor.",
+    "surah": "Ibrahim",
+    "surahNumber": 14,
+    "ayah": 7,
+    "theme": ["gratitude", "hope"],
+    "reflection": "Gratitude is a multiplier. Naming your blessings does not diminish them — it opens the door for more."
+  },
+  {
+    "id": 17,
+    "arabic": "رَبِّ اشْرَحْ لِي صَدْرِي",
+    "translation": "My Lord, expand for me my chest.",
+    "surah": "Ta-Ha",
+    "surahNumber": 20,
+    "ayah": 25,
+    "theme": ["prayer", "strength"],
+    "reflection": "This was Musa's prayer before his greatest challenge. When the task feels too large, ask for an expanded heart first."
+  },
+  {
+    "id": 18,
+    "arabic": "إِنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُحْسِنِينَ",
+    "translation": "Indeed, Allah does not allow to be lost the reward of those who do good.",
+    "surah": "At-Tawbah",
+    "surahNumber": 9,
+    "ayah": 120,
+    "theme": ["hope", "guidance"],
+    "reflection": "Every sincere act of goodness is recorded and preserved. Nothing done for Allah is ever wasted."
+  },
+  {
+    "id": 19,
+    "arabic": "وَهُوَ الْغَفُورُ الْوَدُودُ",
+    "translation": "And He is the Forgiving, the Affectionate.",
+    "surah": "Al-Buruj",
+    "surahNumber": 85,
+    "ayah": 14,
+    "theme": ["mercy", "love"],
+    "reflection": "Al-Wadud — the Affectionate. Allah doesn't merely tolerate you. He loves you with a tenderness that has no equivalent."
+  },
+  {
+    "id": 20,
+    "arabic": "قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنفُسِهِمْ لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
+    "translation": "Say: O My servants who have transgressed against themselves, do not despair of the mercy of Allah.",
+    "surah": "Az-Zumar",
+    "surahNumber": 39,
+    "ayah": 53,
+    "theme": ["mercy", "hope"],
+    "reflection": "This verse is addressed to those who feel they have gone too far. Allah calls them 'My servants' — the relationship is never severed."
+  },
+  {
+    "id": 21,
+    "arabic": "وَاصْبِرْ وَمَا صَبْرُكَ إِلَّا بِاللَّهِ",
+    "translation": "And be patient, for your patience is only through Allah.",
+    "surah": "An-Nahl",
+    "surahNumber": 16,
+    "ayah": 127,
+    "theme": ["patience", "trust"],
+    "reflection": "Even your ability to be patient is a gift from Allah. You don't carry your trials alone — the strength itself comes from Him."
+  },
+  {
+    "id": 22,
+    "arabic": "وَاللَّهُ خَيْرُ الرَّازِقِينَ",
+    "translation": "And Allah is the best of providers.",
+    "surah": "Al-Jumuah",
+    "surahNumber": 62,
+    "ayah": 11,
+    "theme": ["trust", "gratitude"],
+    "reflection": "When provision feels uncertain, remember: the One who provides for all creation has not forgotten you."
+  },
+  {
+    "id": 23,
+    "arabic": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ",
+    "translation": "And We are closer to him than his jugular vein.",
+    "surah": "Qaf",
+    "surahNumber": 50,
+    "ayah": 16,
+    "theme": ["peace", "remembrance"],
+    "reflection": "Closer than your own heartbeat — this is how near Allah is to you, in every moment, in every state."
+  },
+  {
+    "id": 24,
+    "arabic": "إِنَّ اللَّهَ يُحِبُّ الْمُتَوَكِّلِينَ",
+    "translation": "Indeed, Allah loves those who rely upon Him.",
+    "surah": "Al-Imran",
+    "surahNumber": 3,
+    "ayah": 159,
+    "theme": ["trust", "love"],
+    "reflection": "Reliance on Allah is not just permitted — it is loved. Your trust in Him is an act of worship that draws His love."
+  },
+  {
+    "id": 25,
+    "arabic": "رَبَّنَا لَا تُؤَاخِذْنَا إِن نَّسِينَا أَوْ أَخْطَأْنَا",
+    "translation": "Our Lord, do not impose blame upon us if we have forgotten or erred.",
+    "surah": "Al-Baqarah",
+    "surahNumber": 2,
+    "ayah": 286,
+    "theme": ["prayer", "mercy"],
+    "reflection": "Allah taught us how to ask for forgiveness even for mistakes we don't remember. His mercy covers what we didn't even notice."
+  },
+  {
+    "id": 26,
+    "arabic": "وَهُوَ الرَّحِيمُ الْغَفُورُ",
+    "translation": "And He is the Merciful, the Forgiving.",
+    "surah": "Yunus",
+    "surahNumber": 10,
+    "ayah": 107,
+    "theme": ["mercy", "hope"],
+    "reflection": "These two names together mean: His forgiveness is not reluctant — it flows from His very nature of mercy."
+  },
+  {
+    "id": 27,
+    "arabic": "سَنُرِيهِمْ آيَاتِنَا فِي الْآفَاقِ وَفِي أَنفُسِهِمْ",
+    "translation": "We will show them Our signs in the horizons and within themselves.",
+    "surah": "Fussilat",
+    "surahNumber": 41,
+    "ayah": 53,
+    "theme": ["guidance", "reflection"],
+    "reflection": "Look outward at the universe and inward at yourself — both are canvases on which Allah reveals His presence."
+  },
+  {
+    "id": 28,
+    "arabic": "اللَّهُ نُورُ السَّمَاوَاتِ وَالْأَرْضِ",
+    "translation": "Allah is the Light of the heavens and the earth.",
+    "surah": "An-Nur",
+    "surahNumber": 24,
+    "ayah": 35,
+    "theme": ["guidance", "peace"],
+    "reflection": "Every light you have ever seen — sunrise, starlight, the warmth in a room — is a reflection of the One Light that sustains all things."
+  },
+  {
+    "id": 29,
+    "arabic": "وَأَنَّ إِلَىٰ رَبِّكَ الْمُنتَهَىٰ",
+    "translation": "And that to your Lord is the finality.",
+    "surah": "An-Najm",
+    "surahNumber": 53,
+    "ayah": 42,
+    "theme": ["reflection", "guidance"],
+    "reflection": "All paths, all journeys, all outcomes — they all converge at Allah. He is the destination of everything."
+  },
+  {
+    "id": 30,
+    "arabic": "وَتَوَكَّلْ عَلَى اللَّهِ ۚ وَكَفَىٰ بِاللَّهِ وَكِيلًا",
+    "translation": "And rely upon Allah; and sufficient is Allah as Disposer of affairs.",
+    "surah": "Al-Ahzab",
+    "surahNumber": 33,
+    "ayah": 3,
+    "theme": ["trust", "peace"],
+    "reflection": "When you don't know what to do next, this is enough: place it with Allah. He is sufficient to handle what you cannot."
+  }
+]

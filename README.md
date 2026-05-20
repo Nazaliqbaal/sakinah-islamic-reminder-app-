@@ -1,36 +1,153 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sakinah — Quran Reflections
+
+> *سَكِينَة* — tranquility, peace, serenity
+
+A modern Islamic web application that surfaces meaningful Quranic verses as standalone spiritual reflections. Built with Next.js 15, TypeScript, and Tailwind CSS.
+
+---
+
+## Features
+
+- **Daily Guidance** — a verse that rotates each day, deterministically chosen from the curated dataset
+- **Random Verse Generator** — animated shuffle through 30 handpicked verses
+- **Theme Explorer** — filter verses by Hope, Patience, Peace, Gratitude, Trust, Mercy, Strength, Prayer, Guidance, and more
+- **Beautiful Verse Cards** — Arabic text (Amiri font), English translation, Surah reference, and a contextual reflection
+- **Dark Mode** — system-aware with manual override, persisted in localStorage
+- **iPhone Widget API** — `/api/widget` returns JSON for use in Scriptable or iOS widgets
+- **Smooth Animations** — powered by Framer Motion
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js 15 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS v4 |
+| Animations | Framer Motion |
+| Icons | Lucide React |
+| Font | Amiri (Arabic), Geist (Latin) |
+| Data | Local JSON |
+| Deploy | Vercel |
+
+---
+
+## Folder Structure
+
+```
+sakinah/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx              # Root layout, ThemeProvider, Navbar
+│   │   ├── page.tsx                # Homepage — daily verse + random generator
+│   │   ├── globals.css             # Tailwind + custom utilities
+│   │   ├── explore/
+│   │   │   └── page.tsx            # Theme-filtered verse browser
+│   │   └── api/
+│   │       └── widget/
+│   │           └── route.ts        # GET /api/widget — iPhone widget endpoint
+│   ├── components/
+│   │   ├── providers/
+│   │   │   └── ThemeProvider.tsx   # Dark mode context
+│   │   ├── ui/
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── DarkModeToggle.tsx
+│   │   │   ├── VerseCard.tsx       # hero / default / compact variants
+│   │   │   └── ThemeFilter.tsx     # Pill-button theme selector
+│   │   └── sections/
+│   │       ├── Hero.tsx            # Homepage header
+│   │       └── RandomVerse.tsx     # Animated random verse section
+│   ├── lib/
+│   │   ├── verses.ts               # Data helpers + type definitions
+│   │   └── utils.ts                # cn() and misc utils
+│   └── data/
+│       └── verses.json             # 30 curated Quranic verses
+├── public/
+├── next.config.ts
+├── tsconfig.json
+└── package.json
+```
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Widget API
 
-## Learn More
+The `/api/widget` endpoint returns JSON suitable for iOS widgets (Scriptable, WidgetKit via server-side fetch).
 
-To learn more about Next.js, take a look at the following resources:
+**Daily verse:**
+```
+GET /api/widget
+GET /api/widget?mode=daily
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Random verse:**
+```
+GET /api/widget?mode=random
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Response shape:**
+```json
+{
+  "id": 1,
+  "arabic": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ",
+  "translation": "Verily, in the remembrance of Allah do hearts find rest.",
+  "surah": "Ar-Ra'd",
+  "surahNumber": 13,
+  "ayah": 28,
+  "theme": ["peace", "remembrance"],
+  "reflection": "When the world feels heavy...",
+  "reference": "Ar-Ra'd 13:28",
+  "generatedAt": "2026-05-20T00:00:00.000Z",
+  "mode": "daily"
+}
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploy to Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npx vercel
+```
+
+Or connect the GitHub repo to Vercel for automatic deployments.
+
+---
+
+## Adding Verses
+
+Edit `src/data/verses.json`. Each verse follows this shape:
+
+```json
+{
+  "id": 31,
+  "arabic": "...",
+  "translation": "...",
+  "surah": "Al-Fatiha",
+  "surahNumber": 1,
+  "ayah": 1,
+  "theme": ["guidance", "prayer"],
+  "reflection": "..."
+}
+```
+
+Themes available: `hope`, `patience`, `peace`, `gratitude`, `trust`, `mercy`, `strength`, `prayer`, `guidance`, `remembrance`, `love`, `reflection`.
+
+---
+
+*Built with care. May it bring you peace.*
